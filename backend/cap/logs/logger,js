@@ -1,0 +1,11 @@
+class Logger {
+    static info(message, payload) {
+        console.log(`[INFO] ${new Date().toISOString()} - ${message}`, payload || "");
+    }
+
+    static error(message, payload) {
+        console.error(`[ERROR] ${new Date().toISOString()} - ${message}`, payload || "");
+    }
+}
+
+module.exports = Logger;
