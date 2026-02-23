@@ -1,0 +1,3 @@
+module.exports = {
+  PROCUREMENT_CREATED: "PROCUREMENT_CREATED"
+};
