@@ -1,0 +1,1 @@
+exports.approve = () => ({ status: "APPROVED" });
