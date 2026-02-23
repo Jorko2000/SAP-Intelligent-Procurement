@@ -1,0 +1,5 @@
+module.exports = {
+  AUTO_APPROVE: "AUTO_APPROVE",
+  MANUAL_REVIEW: "MANUAL_REVIEW",
+  REJECT: "REJECT"
+};
